@@ -262,6 +262,10 @@ height: 112px;
 background: #f4f4fd;
 }
 
+.icon-antenna-1{
+    margin: 24px 100px;
+}
+
 .title{
    margin-bottom: 8px; 
 }
@@ -321,6 +325,15 @@ background: #f4f4fd;
         text-align: center;
 }
 
+.social-contact{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 0;
+    justify-content: center;
+    margin-top: 8px;
+}
+
 .text{
     letter-spacing: 0.02em;
 }
@@ -356,6 +369,12 @@ p{
 
 .actives{
     width: calc((100% - 48px) / 3);
+    position: relative;
+    overflow: hidden;
+}
+
+.actives:hover .card-change{
+    transform: translateY(0);
 }
 
 .description{
@@ -377,6 +396,28 @@ p{
     letter-spacing: 0.02em;
     line-height: 1.5;
     color: #434455;
+}
+
+.card-change{
+    background: #4d5ae5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 40px 32px;
+    transform: translateY(100%);
+    transition: transform 500ms ease;
+}
+
+.txt-change{
+    font-weight: 400;
+font-size: 16px;
+
+/* line-height: 24px; */ 
+line-height: 150%;
+letter-spacing: 0.02em;
+color: #f4f4fd;
 }
 
 .down{
