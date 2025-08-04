@@ -169,12 +169,7 @@ img{
     margin-left: auto;
     margin-right: auto;
     width: 1440px;
-    background-image: linear-gradient( 
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)),
-        url(../images/people-office\ 1-opt.jpg);
-
-    
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1-opt.jpg);   
 }
 
 .main-title{
@@ -223,6 +218,9 @@ img{
 
 .about{
     padding: 120px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .description{
@@ -356,6 +354,7 @@ margin-bottom: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-btn:hover, .social-btn:focus{
@@ -403,16 +402,21 @@ p{
     width: calc((100% - 48px) / 3);
     position: relative;
     overflow: hidden;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .actives:hover .card-change{
     transform: translateY(0);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .description{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+    display: block;
+    position: relative;
+    overflow: hidden;
 }
 
 .description-foto{
@@ -447,14 +451,21 @@ p{
 font-size: 16px;
 
 /* line-height: 24px; */ 
-line-height: 150%;
+line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
+position: absolute;
+top: 0;
+padding: 40px 32px;
+background-color: #4d5ae5;
+
+height: 100%;
 }
 
 .down{
     background-color: #2e2f42;
     padding: 100px 0;
+    display: flex;
 }
 
 .logo{
@@ -469,6 +480,25 @@ color: #f4f4fd;
     letter-spacing: 0.02em;
     width: 264px;
     max-width: 264px;
+}
+
+.social-media{
+    font-weight: 500;
+font-size: 16px;
+
+/* line-height: 24px; */ 
+line-height: 150%;
+letter-spacing: 0.02em;
+color: #fff;
+}
+
+.list-down{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 0;
+    margin-top: 16px;
+    list-style-type: none;
 }
 
 ul {
