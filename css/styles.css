@@ -410,6 +410,11 @@ p{
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.actives:hover, .actives:focus .txt-change{
+    transform: translateY(0%);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.16), 0px 1px 1px rgba(46, 47, 66, 0.24), 0px 2px 1px rgba(46, 47, 66, 0.16);
+}
+
 
 .description{
      position: relative;
@@ -418,6 +423,11 @@ p{
 
 .description:hover .txt-change{
     transform: translateY(0);
+}
+
+.foto{
+     position: relative;
+     overflow: hidden;
 }
 
 .description-foto{
