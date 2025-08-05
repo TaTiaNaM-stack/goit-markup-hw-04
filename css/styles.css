@@ -437,6 +437,10 @@ p{
     letter-spacing: 0.02em;
     line-height: 1.5;
     color: #434455;
+    transform: translateY(0%);
+    width: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .txt-change:hover{
@@ -469,10 +473,10 @@ padding: 40px 32px;
 background-color: #4d5ae5;
 height: 100%;
 
-/*txt deleted*/
+/*txt deleted
 width: 100%;
 transform: translateY(100%);
-transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);*/
 }
 
 .down{
