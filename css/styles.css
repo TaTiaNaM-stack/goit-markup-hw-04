@@ -46,10 +46,18 @@ img{
 }
 
 .logo-header{
-    padding: 24px 0 24px;
+    padding: 24px;
     margin-right: 76px;
     text-decoration: none;
     font-weight: 700;
+    
+font-size: 18px;
+
+/* line-height: 21px; */ 
+line-height: 117%;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
 }
 
 .studio-up{
