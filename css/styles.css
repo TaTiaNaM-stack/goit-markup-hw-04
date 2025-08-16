@@ -50,14 +50,12 @@ img{
     margin-right: 76px;
     text-decoration: none;
     font-weight: 700;
-    
-font-size: 18px;
-
-/* line-height: 21px; */ 
-line-height: 117%;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
 }
 
 .studio-up{
@@ -100,6 +98,10 @@ color: #4d5ae5;
 .active-address{
     display: block;
     padding: 24px 0;
+}
+
+.active-address .navigation{
+    width: 153px;
 }
 
 .main-menu.current{
@@ -162,12 +164,11 @@ color: #4d5ae5;
 }
 
 .section{
-    padding-top: 120px;
-    padding-bottom: 120px;
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin: auto;
 }
 
 
@@ -408,7 +409,6 @@ p{
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    width: 1440px;
 }
 
 .actives{
