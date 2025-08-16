@@ -387,6 +387,10 @@ p{
     line-height: 1.5;
 }
 
+.portfolio{
+  margin: 120px 0;
+}
+
 .text-center{
     text-align: center;
     letter-spacing: 0.02em; 
