@@ -23,12 +23,12 @@ img{
 .container{
     width: 1158px;
     margin: auto;
+    margin-left: auto;
 }
 
 .header-container{
     display: flex;
     align-items: center;
-    gap: 332px;
 }
 
 
@@ -44,7 +44,6 @@ img{
 }
 
 .logo-header{
-    padding: 24px;
     margin-right: 76px;
     text-decoration: none;
     font-weight: 700;
@@ -142,7 +141,6 @@ img{
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-left: auto;
 }
 .navigation:hover{
     color: #404bbf;
